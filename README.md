@@ -4,7 +4,7 @@ Some shell scripts related to Thermo Fisher raw format conversion using msconver
 ## docker scripts
 ```shell
 > docker build -t Nesvilab/msconvert-scripts-i-agree-to-the-vendor-licenses .
-> docker run -itd -v <local directory (your data directory)>:/data/ Nesvilab/msconvert-scripts /bin/bash
+> docker run -itd -v <local directory (your data directory)>:/data/ Nesvilab/msconvert-scripts-i-agree-to-the-vendor-licenses /bin/bash
 container_id will appear here
 
 > docker exec -it <container id> bash
